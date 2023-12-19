@@ -1,0 +1,61 @@
+body{
+    background-color: #ffffff;
+}
+.br{
+	border-radius: 50%;
+}
+.card-title{
+	font-size: 25px;
+	font-family: 'Inter', sans-serif;
+}
+.b-coffee{
+	padding: 10px 0 10px 0;
+	width: 200px;
+	margin: 0 auto;
+}
+.b-coffee a{
+	display: block;
+	width: 200px;
+	height: 56px;
+}
+.first{
+	position: absolute;
+	transition: .2s all linear;
+}
+.second{
+	position: absolute;
+	opacity: 0;
+	transition: .2s all linear;
+}
+.first:hover{
+	opacity: 0;
+	transition: .2s all linear;
+}
+.second:hover{
+	opacity: 1;
+	transition: .2s all linear;
+}
+.hover a:hover{
+	opacity: 0.8;
+	transition: .2s all linear;
+}
+.mono{
+	margin: 0 auto;
+	background: #fff;
+	border: 2px solid #000;
+	width: 200px;
+	height: 56px;
+	border-radius: 18px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 22px;
+	color: #000;
+	text-decoration: none;
+}
+.mono:hover{
+	background: #000;
+	color: #fff;
+	transition: .2s all linear;
+}
